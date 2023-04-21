@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./../assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <script src="https://use.fontawesome.com/cd8c795169.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <title>De la Cruz</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="header__logo">
+        <a href="./../index.html"
+          ><img class="logo" src="./../assets/img/delaCruz2.jpg"
+        /></a>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__nav__list">
+          <li class="header__nav__list__item">
+            <a href="./../index.html">Inicio</a>
+          </li>
+          <li class="header__nav__list__item">
+            <a href="./shop.html">Shop</a>
+          </li>
+          <li class="header__nav__list__item">
+            <a href="./carrito.html"
+              ><span class="material-symbols-outlined">shopping_cart</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <button
+      class="btn btn-primary"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasExample"
+      aria-controls="offcanvasExample"
+    >
+      <span class="material-symbols-outlined">menu</span>
+    </button>
+
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel"><a href="./shop.html">Menú</a></h5>
+        <button
+          type="button"
+          class="btn-close btn-close-white text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <ul class="offcanvas__list">
+        <li class="offcanvas__item"><a href="./../index.html">Inicio</a></li>
+        <li class="offcanvas__item"><a href="./shop.html">Shop</a></li>
+        <li class="offcanvas__item">
+          <a href="./carrito.html">Servicios</a>
+        </li>
+      </ul>
+    </div>
+    </header>
+    <main class="main">
+      <h2 class="title">NUESTROS PRODUCTOS</h2>
+      <div class="shopdisplay">
+        <div class="box--shop">
+          <div class="box--card">
+            <div class="box--form">
+              <img src="./../assets/img/FORM (2).jpg" alt="form" />
+            </div>
+            <h2 class="subtitle">THE FORM E-BOOK</h2>
+            <p class="paragraph">
+              45 minutos perfectos de modelado y tonificación. Una clase de alta
+              energía y baja intensidad. Rebote mínimo. Quema máxima. Form
+              combina los beneficios del weightlifting y el entrenamiento
+              funcional. Form es apto para todos los niveles y habilidades.
+            </p>
+            <p class="paragraph">ARS $15000</p>
+            <button class="comprar2" type="button">Comprar</button>
+          </div>
+
+          <div class="box--card">
+            <div class="box--pace">
+              <img src="./../assets/img/PACE (1).jpg" alt="pace" />
+            </div>
+            <h2 class="subtitle">THE PACE E-BOOK</h2>
+            <p class="paragraph">
+              Eficiente, eficaz y enfocado en resultados. Un entrenamiento de
+              running perfectamente estructurada de 45 minutos enfocada
+              principalmente en desarrollar resistencia cardiovascular. Pace es
+              adecuado para todos los niveles y habilidades y se realiza con
+              zapatillas para correr.
+            </p>
+            <p class="paragraph">ARS $15000</p>
+            <button class="comprar3" type="button">Comprar</button>
+          </div>
+
+          <div class="box--card">
+            <div class="box--yang">
+              <img src="./../assets/img/YANG (1).jpg" alt="yang" />
+            </div>
+            <h2 class="subtitle">THE YANG E-BOOK</h2>
+            <p class="paragraph">
+              Un entrenamiento de 45 minutos diseñado para aprovechar los
+              beneficios del pilates y del barre. YANG se enfoca en optimizar el
+              potencial de quema y modelado de su cuerpo. Es apto para todos los
+              niveles de entrenamiento.
+            </p>
+            <p class="paragraph">ARS $15000</p>
+            <button class="comprar4" type="button">Comprar</button>
+          </div>
+
+          <div class="box--card">
+            <div class="box--breathe">
+              <img src="./../assets/img/BREATHE (1).jpg" alt="breathe" />
+            </div>
+            <h2 class="subtitle">THE BREATHE E-BOOK</h2>
+            <p class="paragraph">
+              Para abrazar tanto la energía masculina como la femenina. Una
+              clase de relajación de cuerpo completo que tiene una sola
+              intención: liberar, estirar y soltar. Centrándose en aliviar las
+              zonas de malestar y tensión de todo el cuerpo. Nuestra clase de
+              BREATHE explora diferentes intenciones y estiramientos para que
+              puedas aprovechar al máximo tu práctica. BREATHE es apto para
+              todos los niveles.
+            </p>
+            <p class="paragraph">ARS $15000</p>
+            <button class="comprar5" type="button">Comprar</button>
+          </div>
+
+          <div class="box--card">
+            <div class="box--eat">
+              <img src="./../assets/img/EAT (1) (1).jpg" alt="eat" />
+            </div>
+            <h2 class="subtitle">THE EAT E-BOOK</h2>
+            <p class="paragraph">
+              ¡Pongan la mesa! Llego EAT, un e-book diseñado para que puedas
+              acompañar tus entrenamientos con comidas ricas y faciles de hacer,
+              pero sobretodo saludables.
+            </p>
+            <p class="paragraph">ARS $15000</p>
+            <button class="comprar6" type="button">Comprar</button>
+          </div>
+        </div>
+        <h2 class="title">NUESTROS SERVICIOS</h2>
+        <div class="flex">
+          <div class="box--card">
+            <div class="box--3"></div>
+            <img
+              class="image--servicios"
+              src="./../assets/img/conserjeria2.jpg"
+              alt=""
+            />
+            <h2 class="subtitle">Conserjería nutricional</h2>
+            <p class="paragraph">
+              Te armamos un plan de alimentación a tu medida, segun tus gustos,
+              preferencias y tu nivel de actividad física.
+            </p>
+            <p class="paragraph">ARS $15000</p>
+            <button class="comprar0" type="button">Comprar</button>
+          </div>
+
+          <div class="box--card">
+            <div class="box--4"></div>
+            <img
+              class="image--servicios"
+              src="./../assets/img/entrenamiento5.jpg"
+              alt="train"
+            />
+            <h2 class="subtitle">Entrenamientos personalizados</h2>
+            <p class="paragraph">
+              Un entrenamiento armado excusivamente para vos. Combinaremos
+              distintas disciplinas: pilates, weightlifting, y entrenamiento
+              funcional, para lograr tu mejor versión.
+            </p>
+            <p class="paragraph">ARS $15000</p>
+            <button class="comprar1" type="button">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__socials">
+        <p class="footer__title">Redes</p>
+        <ul class="footer__list">
+          <li>
+            <a
+              class="footer__list--item"
+              href="https://www.facebook.com/GirlsWhoCode/"
+              target="_blank"
+              ><i class="fa fa-facebook-square"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              class="footer__list--item"
+              href="https://www.instagram.com/girlswhocode/?hl=es"
+              target="_blank"
+              ><i class="fa fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              class="footer__list--item"
+              href="https://twitter.com/GirlsWhoCode?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+              target="_blank"
+              ><i class="fa fa-twitter-square"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              class="footer__list--item"
+              href="https://www.youtube.com/user/girlswhocode"
+              target="_blank"
+              ><i class="fa fa-youtube-square"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              class="footer__list--item"
+              href="https://www.linkedin.com/school/girlswhocode/"
+              target="_blank"
+              ><i class="fa fa-linkedin-square"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="./../assets/js/shop.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <script src="https://use.fontawesome.com/cd8c795169.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <title>De la Cruz</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="header__logo">
+        <a href="./index.html"
+          ><img class="logo" src="./../assets/img/delaCruz2.jpg"
+        /></a>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__nav__list">
+          <li class="header__nav__list__item">
+            <a href="index.html">Inicio</a>
+          </li>
+          <li class="header__nav__list__item">
+            <a href="pages/shop.html">Shop</a>
+          </li>
+          <li class="header__nav__list__item">
+            <a href="pages/carrito.html"
+              ><span class="material-symbols-outlined">shopping_cart</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <button
+      class="btn btn-primary"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasExample"
+      aria-controls="offcanvasExample"
+    >
+      <span class="material-symbols-outlined">menu</span>
+    </button>
+
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel"><a href="./index.html">Menú</a></h5>
+        <button
+          type="button"
+          class="btn-close btn-close-white text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <ul class="offcanvas__list">
+        <li class="offcanvas__item"><a href="./index.html">Inicio</a></li>
+        <li class="offcanvas__item"><a href="./pages/shop.html">Shop</a></li>
+        <li class="offcanvas__item">
+          <a href="./pages/carrito.html">Cart</a>
+        </li>
+      </ul>
+    </div>
+    </header>
+    <main class="main">
+      <h1 class="title">Behind de la Cruz</h1>
+      <div class="box">
+        <p class="paragraph">
+          Somos un estudio de concepto básico, un espacio basado en principios
+          nutricionales y físicos con objetivos de fortaleza personal y con un
+          enfoque basado en resultados
+        </p>
+      </div>
+      <div class="box">
+        <h2 class="subtitle">¿Quiénes somos?</h2>
+        <p class="paragraph">
+          Somos una red de coaches, entrenadores y nutricionistas que trabajan
+          con una visión común: ayudarte a convertirte en tu mejor versión
+        </p>
+      </div>
+      <div class="box">
+        <h2 class="subtitle">¿Qué ofrecemos?</h2>
+        <div class="box--little">
+          <div class="box-little1">
+            <img
+              class="image--index"
+              src="./assets/img/entrenamiento6.jpg"
+              alt="entrenemiento"
+            />
+            <p class="item">
+              <a href="./pages/shop.html">Programas de entrenamiento</a>
+            </p>
+          </div>
+          <div class="box-little2">
+            <img
+              class="image--index"
+              src="./assets/img/conserjeria2.jpg"
+              alt="conserjeria"
+            />
+            <p class="item">
+              <a href="./pages/shop.html"
+                >Conserjería nutricional y antropometría</a
+              >
+            </p>
+          </div>
+          <div class="box-little3">
+            <img
+              class="image--index"
+              src="./assets/img/recetas2.jpg"
+              alt="recetas"
+            />
+            <p class="item">
+              <a href="./pages/shop.html">Recetas y consejos culinarios</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <h2 class="subtitle">Nuestras profesionales</h2>
+        <ul class="listado"></ul>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__socials">
+        <p class="footer__title">Redes</p>
+        <ul class="footer__list">
+          <li>
+            <a
+              class="footer__list--item"
+              href="https://www.facebook.com/GirlsWhoCode/"
+              target="_blank"
+              ><i class="fa fa-facebook-square"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              class="footer__list--item"
+              href="https://www.instagram.com/girlswhocode/?hl=es"
+              target="_blank"
+              ><i class="fa fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              class="footer__list--item"
+              href="https://twitter.com/GirlsWhoCode?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+              target="_blank"
+              ><i class="fa fa-twitter-square"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              class="footer__list--item"
+              href="https://www.youtube.com/user/girlswhocode"
+              target="_blank"
+              ><i class="fa fa-youtube-square"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              class="footer__list--item"
+              href="https://www.linkedin.com/school/girlswhocode/"
+              target="_blank"
+              ><i class="fa fa-linkedin-square"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./assets/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
